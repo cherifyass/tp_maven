@@ -44,6 +44,28 @@
                     <version>2.3</version>
                 </plugin>
 
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-changelog-plugin</artifactId>
+                <version>2.2</version>
+            </plugin>
+
         </plugins>
     </reporting>
+
+    <scm>
+        <connection>scm:git|file|///h:/ESIR-2/S8/AL/tp1/tpmaven/</connection>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Yassine Cherif</name>
+            <email>blablabla@gmail.haha</email>
+            <roles>
+                <role>admin</role>
+                <role>developer</role>
+            </roles>
+        </developer>
+    </developers>
+
 </project>
